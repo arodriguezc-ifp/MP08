@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.logo{
+    background-color: rgb(24, 31, 70);
+    height: 200px;
+    width: 200px;
+    border-radius: 15%;
+    color: rgb(25, 152, 243);
+    font-size: 140px;
+    margin: auto;
+    text-align: center;
+    line-height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.fil{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+
+.filtres, .fusions{
+    width: 850px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.imatge{
+    width: 130px;
+    height: 150px;
+    background-image: url(../img/meloness.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.superposada{
+    width: 130px;
+    height: 150px;
+    background-image: url(../img/melocoton.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+/*-------filtres-------*/
+
+input{
+    width: 130px;
+    margin: 0 auto;
+}
+
+.desenfoc .imatge{
+    filter: blur(2px);
+}
+
+.lluminositat .imatge{
+    filter: brightness(2);
+}
+
+.contrast .imatge{
+    filter: contrast(200%);
+}
+
+.ombra .imatge{
+    filter: drop-shadow(5px 5px 5px green);
+}
+
+.grisos .imatge{
+    filter: grayscale(80%);
+}
+
+
+.to-saturacio .imatge{
+    filter: hue-rotate(80deg);
+}
+
+.invertir .imatge{
+    filter: invert (75%);
+}
+
+.opacitat .imatge{
+    filter: opacity(50%);
+}
+
+.saturacio .imatge{
+    filter: saturate(20%);
+}
+
+.sepia .imatge{
+    filter: sepia(60%);
+}
+
+/*-------blend-mode-------*/
+
+input{
+    width: 130px;
+    margin: 0 auto;
+}
+
+.multiplicar .superposada{
+    mix-blend-mode: multiply;
+}
+
+.trama .superposada{
+    mix-blend-mode: screen;
+}
+
+.superposar .superposada{
+    mix-blend-mode: overlay;
+}
+
+.Enfosquir .superposada{
+    mix-blend-mode: darken;
+}
+
+.Aclarar .superposada{
+    mix-blend-mode: lighten;
+}
+
+.fosc .superposada{
+    mix-blend-mode: color-burn;
+}
+
+.clar .superposada{
+    mix-blend-mode: color-dodge;
+}
+
+.intensa .superposada{
+    mix-blend-mode: hard-light;
+}
+
+.suau .superposada{
+    mix-blend-mode: soft-light;
+}
+
+.Diferencia .superposada{
+    mix-blend-mode: difference;
+}
+
+.Excluso .superposada{
+    mix-blend-mode: exclusion;
+}
+
+.to .superposada{
+    mix-blend-mode: hue;
+}
+
+.saturacio .superposada{
+    mix-blend-mode: saturation;
+}
+
+.color .superposada{
+    mix-blend-mode: color;
+}
+
+.brillantor .superposada{
+    mix-blend-mode: luminosity;
+}
+
+/*----tirador----*/
+
+input{
+    width: 130px;
+    margin: 0 auto;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb{
+    border: 1px solid black;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: linear-gradient(black, red);
+}
+
+input[type=range]::-webkit-slider-runnable-track{
+    width: 100%;
+    height: 8px;
+    cursor: pointer;
+    background: grey;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 1px 1px black;
+}
+
+input[type=checkbox]{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 12px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background: cyan;
+    border-radius: 6px;
+}
+
+input[type=checkbox]:before{
+  content:"";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(black, red);
+  border-radius: 50%;
+}
+
+input[type=checkbox]:checked:before {
+        position: relative;
+        left: 8px;
+}
+
+
+
