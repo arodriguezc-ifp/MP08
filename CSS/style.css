@@ -5,6 +5,7 @@
 
 html, body{
     height: 100%;
+    overflow-x: hidden;
 }
 
 nav{
@@ -336,4 +337,31 @@ h3{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width:480px){
+
+    nav{
+        position: fixed;
+        height: 50px;
+        text-align: center;
+    }   
+
+    .p1 h1{
+         font-size: 40px;
+    }
+
+    .p2 h2{
+        font-size: 40px;
+    }
+
+    .p3 h3{
+        font-size: 40px;
+    }
+
+    .cont1{
+        transform: scale(70%);
+        left: 10rem;
+    }
 }
