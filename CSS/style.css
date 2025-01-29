@@ -269,14 +269,14 @@ nav li{
 }
 
 .primera{
-    background-image: url(../IMG/Watchmen.png);
+    background-image: url(../img/Watchmen.png);
     background-size: 200px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .segunda{
-    background-image: url(../IMG/Calendario.png);
+    background-image: url(../img/calendario.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
@@ -284,49 +284,49 @@ nav li{
 }
 
 .tercera{
-    background-image: url(../IMG/feedly.png);
+    background-image: url(../img/feedly.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .cuarta{
-    background-image: url(../IMG/floats.png);
+    background-image: url(../img/floats.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .quinta{
-    background-image: url(../IMG/scacs.png);
+    background-image: url(../img/scacs.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .sexta{
-    background-image: url(../IMG/instagram.png);
+    background-image: url(../img/instagram.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .septima{
-    background-image: url(../IMG/animacio.png);
+    background-image: url(../img/animacio.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .octava{
-    background-image: url(../IMG/photoshop.png);
+    background-image: url(../img/photoshop.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .novena{
-    background-image: url(../IMG/careta.png);
+    background-image: url(../img/careta.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
