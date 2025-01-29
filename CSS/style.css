@@ -57,7 +57,7 @@ h1 {
     margin: 0 auto;
     color: #fff;
     font-size: 90px;
-    font-weight: 600;
+    font-weight: 600px;
     text-align: center;
     text-transform: uppercase;
     top: 450px
@@ -226,7 +226,7 @@ nav li{
     margin: 0px 30px 50px 0px;
     color: rgb(0, 0, 0);
     font-family: "Bowlby One SC", sans-serif;
-    font-weight: 400;
+    font-weight: 400px;
     font-style: normal;
 }
 
@@ -344,20 +344,20 @@ h3{
 
     nav{
         position: fixed;
-        height: 50px;
+        height: 3,125rem;
         text-align: center;
     }   
 
     .p1 h1{
-         font-size: 40px;
+         font-size: 2,5rem;
     }
 
     .p2 h2{
-        font-size: 40px;
+        font-size: 2,5rem;
     }
 
     .p3 h3{
-        font-size: 40px;
+        font-size: 2,5rem;
     }
 
     .cont1{
