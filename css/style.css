@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+nav{
+    position: fixed;
+    height: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 500000;
+    box-shadow: 1px 1px 4px gray;
+    color:  rgb(112, 0, 249);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 45px;
+}
+
+#hero{
+    min-height: 100vh;
+    position: relative;
+}
+
+video{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.glitch{
+    position: relative;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    top: 450px
+}
+
+.glitch:before, .glitch:after{
+    content: "BENVINGUTS";
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    overflow: hidden;
+    background-color: #231f38;
+    color: #fff;
+}
+
+.glitch:before{
+    left: 10px;
+    text-shadow: 5px 0 #3cd1e9;
+    animation: effect 3s infinite linear;
+}
+
+.glitch:after{
+    left: 4px;
+    text-shadow: -5px 0 #ff1d6f;
+    animation: effect 3s infinite linear;
+}
+
+@-webkit-keyframes effect{
+
+    5%{
+        clip:rect(42px, 9999px, 28px, 0);
+    }
+
+    10%{
+        clip:rect(72px, 9999px, 78px, 0);
+    }
+
+    15%{
+        clip:rect(35px, 9999px, 63px, 0);
+    }
+
+    20%{
+        clip:rect(65px, 9999px, 39px, 0);
+    }
+
+    25%{
+        clip:rect(41px, 9999px, 80px, 0);
+    }
+
+    30%{
+        clip:rect(82px, 9999px, 3px, 0);
+    }
+
+    35%{
+        clip:rect(12px, 9999px, 67px, 0);
+    }
+
+    40%{
+        clip:rect(55px, 9999px, 10px, 0);
+    }
+
+    45%{
+        clip:rect(38px, 9999px, 26px, 0);
+    }
+    
+    50%{
+        clip:rect(91px, 9999px, 78px, 0);
+    }
+
+    55%{
+        clip:rect(67px, 9999px, 30px, 0);
+    }
+
+    60%{
+        clip:rect(13px, 9999px, 92px, 0);
+    }
+
+    65%{
+        clip:rect(62px, 9999px, 16px, 0);
+    }
+
+    70%{
+        clip:rect(55px, 9999px, 56px, 0);
+    }
+
+    75%{
+        clip:rect(34px, 9999px, 80px, 0);
+    }
+
+    80%{
+        clip:rect(45px, 9999px, 23px, 0);
+    }
+
+    85%{
+        clip:rect(23px, 9999px, 12px, 0);
+    }
+    
+    90%{
+        clip:rect(97px, 9999px, 78px, 0);
+    }
+
+    95%{
+        clip:rect(13px, 9999px, 49px, 0);
+    }
+    
+    100%{
+        clip:rect(82px, 9999px, 22px, 0);
+    }
+}
+
+
+
+
+
+h2{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(112, 0, 249);
+}
+
+.pagina{
+    position: relative;
+    height: 100%;
+}
+
+.p1{
+    background-color: rgb(112, 0, 249);
+}
+
+.p2{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.p3{
+    background-color: rgb(112, 0, 249);
+}
+
+
+
+.p2 ul{
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+    left: 110px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.p2 li{
+    display: block;
+    width: 200px;
+    height: 220px;
+    float: left;
+    background-color: rgb(112, 0, 249);
+    text-align: center;
+    line-height: 490px;
+    transition: 1s;
+    margin: 0px 30px 50px 0px;
+    color: rgb(0, 0, 0);
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:hover .p2 li{
+    box-shadow: 0px 0px 5px 1px;
+}
+
+.p2 li:hover{
+    animation: 1s rebotar linear 3 infinite; 
+}
+
+
+@keyframes rebotar{
+    
+    0% {
+        transform: translateY(0px);
+
+    }
+
+    25% {
+        transform: translateY(10px);
+        
+    }
+
+    50% {
+        transform: translateY(0px);
+        
+    }
+
+    75% {
+        transform: translateY(-10px);
+        
+    }
+
+    100% {
+        transform: translateY(0px);
+        
+    }
+
+}
+
+.primera{
+    background-image: url(../img/Watchmen.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.segunda{
+    background-image: url(../img/Calendario.png);
+    background-size: 210px;
+    background-repeat: no-repeat;
+    transition: 1s;
+    top: 20px;
+}
+
+.tercera{
+    background-image: url(../img/feedly.png);
+    background-size: 210px;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.cuarta{
+    background-image: url(../img/floats.png);
+    background-size: 210px;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.quinta{
+    background-image: url(../img/scacs.png);
+    background-size: 210px;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.sexta{
+    background-image: url(../img/instagram.png);
+    background-size: 210px;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.septima{
+    background-image: url(../img/animacio.png);
+    background-size: 210px;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.octava{
+    background-image: url(../img/photoshop.png);
+    background-size: 210px;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+.novena{
+    background-image: url(../img/careta.png);
+    background-size: 210px;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+h3{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
