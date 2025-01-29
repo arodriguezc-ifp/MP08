@@ -5,7 +5,6 @@
 
 html, body{
     height: 100%;
-    overflow-x: hidden;
 }
 
 nav{
@@ -57,7 +56,7 @@ h1 {
     margin: 0 auto;
     color: #fff;
     font-size: 90px;
-    font-weight: 600px;
+    font-weight: 600;
     text-align: center;
     text-transform: uppercase;
     top: 450px
@@ -226,7 +225,7 @@ nav li{
     margin: 0px 30px 50px 0px;
     color: rgb(0, 0, 0);
     font-family: "Bowlby One SC", sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -269,14 +268,14 @@ nav li{
 }
 
 .primera{
-    background-image: url(../img/Watchmen.png);
+    background-image: url(../IMG/Watchmen.png);
     background-size: 200px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .segunda{
-    background-image: url(../img/calendario.png);
+    background-image: url(../IMG/Calendario.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
@@ -284,49 +283,49 @@ nav li{
 }
 
 .tercera{
-    background-image: url(../img/feedly.png);
+    background-image: url(../IMG/feedly.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .cuarta{
-    background-image: url(../img/floats.png);
+    background-image: url(../IMG/floats.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .quinta{
-    background-image: url(../img/scacs.png);
+    background-image: url(../IMG/scacs.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .sexta{
-    background-image: url(../img/instagram.png);
+    background-image: url(../IMG/instagram.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .septima{
-    background-image: url(../img/animacio.png);
+    background-image: url(../IMG/animacio.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .octava{
-    background-image: url(../img/photoshop.png);
+    background-image: url(../IMG/photoshop.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .novena{
-    background-image: url(../img/careta.png);
+    background-image: url(../IMG/careta.png);
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
@@ -337,31 +336,4 @@ h3{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-}
-
-
-@media screen and (max-width:480px){
-
-    nav{
-        position: fixed;
-        height: 3,125rem;
-        text-align: center;
-    }   
-
-    .p1 h1{
-         font-size: 2,5rem;
-    }
-
-    .p2 h2{
-        font-size: 2,5rem;
-    }
-
-    .p3 h3{
-        font-size: 2,5rem;
-    }
-
-    .cont1{
-        transform: scale(70%);
-        left: 10rem;
-    }
 }
