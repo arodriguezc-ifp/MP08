@@ -272,6 +272,8 @@ h3{
 
     .glitch{
         font-size: 3rem;
+        position: relative;
+        top: 29rem;
     }
 
     h2{
@@ -280,11 +282,25 @@ h3{
 
     h3{
         font-size: 3rem;
+        top: 8rem;
+
     }
 
     nav{
          text-align: center;
     }
+
+    .p2 li{
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .cont1{
+        width: 100%;
+        transform: scale(100%);
+        transform-origin: 50%;
+    }
+
 
 }
 
