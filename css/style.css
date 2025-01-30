@@ -274,7 +274,7 @@ h3{
     .glitch{
         font-size: 3rem;
         position: relative;
-        top: 20rem;
+        top: 19rem;
     }
 
     h2{
@@ -283,7 +283,7 @@ h3{
 
     h3{
         font-size: 3rem;
-        top: 8rem;
+        top: 9rem;
 
     }
 
@@ -292,16 +292,12 @@ h3{
     }
 
     .p2 li{
-        width: 9rem;
-        height: 9rem;
+        transform: scale(80%);
     }
 
-    .cont1{
-        width: 100%;
-        transform: scale(100%);
-        transform-origin: 50%;
+    .p2 ul{
+        width: 40rem;
     }
-
 
 }
 
