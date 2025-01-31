@@ -281,22 +281,17 @@ h3{
         font-size: 3rem;
     }
 
-    h3{
-        font-size: 3rem;
-        top: 9rem;
-
-    }
-
     nav{
          text-align: center;
     }
 
     .p2 li{
-        transform: scale(80%);
+        transform: scale(40%);
+        margin: 0rem 0rem -4rem -4rem;
     }
 
     .p2 ul{
-        width: 40rem;
+        width: 20rem;
     }
 
 }
