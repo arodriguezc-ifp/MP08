@@ -1,10 +1,14 @@
 *{
     padding: 0;
     margin: 0;
+    position: relative;
 }
 html, body{
     height: 100%;
     overflow-x: hidden;
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
 }
 nav{
     position: fixed;
@@ -21,7 +25,6 @@ nav{
 }
 #hero{
     min-height: 100vh;
-    position: relative;
 }
 video{
     position: absolute;
@@ -45,7 +48,6 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .glitch{
-    position: relative;
     margin: 0 auto;
     color: #fff;
     font-size: 90px; 
@@ -143,7 +145,6 @@ h2{
     color: rgb(112, 0, 249);
 }
 .pagina{
-    position: relative;
     height: 100%;
 }
 .p1{
@@ -154,14 +155,15 @@ h2{
 }
 .p3{
     background-color: rgb(112, 0, 249);
+    text-align: center;
 }
 .p2 ul{
-    width: 900px;
+    width: 710px;
     margin: 0 auto;
     padding-top: 50px;
     text-align: center;
-    position: relative;
-    left: 110px;
+    overflow: hidden;
+
 }
 nav li{
     display: inline-block;
@@ -171,16 +173,14 @@ nav li{
     display: block;
     width: 200px;
     height: 220px;
-    float: left;
-    background-color: rgb(112, 0, 249);
+    display: inline-block;
+    
     text-align: center;
     line-height: 490px;
     transition: 1s;
-    margin: 0px 30px 50px 0px;
+    margin: 0px 15px 50px 15px;
     color: rgb(0, 0, 0);
-    font-family: "Bowlby One SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+
 }
 :hover .p2 li{
     box-shadow: 0px 0px 5px 1px;
@@ -216,7 +216,6 @@ nav li{
     background-size: 210px;
     background-repeat: no-repeat;
     transition: 1s;
-    top: 20px;
 }
 .tercera{
     background-image: url(../img/feedly.png);
@@ -260,11 +259,15 @@ nav li{
     background-repeat: no-repeat;
     transition: 1s;
 }
+
 h3{
     font-size: 100px;
-    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
+}
+
+.img{ 
+
 }
 
 
@@ -273,7 +276,6 @@ h3{
 
     .glitch{
         font-size: 3rem;
-        position: relative;
         top: 19rem;
     }
 
@@ -285,13 +287,14 @@ h3{
          text-align: center;
     }
 
-    .p2 li{
-        transform: scale(40%);
-        margin: 0rem 0rem -4rem -4rem;
+    .p2 ul{
+        width: 100%;
     }
 
-    .p2 ul{
-        width: 20rem;
+    .p2 li{
+      width: 40vw; 
+      height: 46vw; 
+      margin: 2vw;
     }
 
 }
