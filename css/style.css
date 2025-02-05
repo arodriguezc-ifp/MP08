@@ -304,6 +304,11 @@ h3{
       transform: scale(80%);
     }
 
+    h3{
+        font-size: 3rem;
+        top:3rem;
+    }
+
 
 }
 
