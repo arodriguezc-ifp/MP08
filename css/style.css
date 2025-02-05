@@ -264,6 +264,7 @@ h3{
     font-size: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
+    top: 50px 0px;
 }
 
 .img{ 
@@ -288,7 +289,7 @@ h3{
     }
 
     .p2{
-        height: 250%;
+        height: 240%;
     }
 
 
