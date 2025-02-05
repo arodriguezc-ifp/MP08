@@ -287,6 +287,11 @@ h3{
          text-align: center;
     }
 
+    .p2{
+        height: 210%;
+    }
+
+
     .p2 ul{
         width: 100%;
     }
@@ -295,7 +300,9 @@ h3{
       width: 40vw; 
       height: 46vw; 
       margin: 2vw;
+      transform: scale(80%);
     }
+
 
 }
 
